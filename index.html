@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+      <!-- Tailwind + DaisyUI CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+  <!-- css file link  -->
+   <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="bg-white shadow">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between items-center h-16">
+
+        <div class="flex items-center gap-3">
+          <img src="./assets/logo.png" alt="logo" class="w-10 h-10 rounded-full object-cover border" />
+          <div>
+            <div class="text-sm font-bold text-[#006747]">Emergency</div>
+            <div class="text-sm font-semibold text-[#006747]">Service</div>
+          </div>
+        </div>
+
+        
+        <div class="flex items-center gap-3">
+          <div class="flex items-center gap-2 bg-emerald-50 px-3 py-1 rounded-full">
+             <img src="./assets/heart.png" alt="" class="w-5 h-5">
+            <span id="navHeartCount" class="text-sm font-medium">0</span>
+          </div>
+
+          
+          <div class="flex items-center gap-2 bg-emerald-50 px-3 py-1 rounded-full">
+            
+             <img src="./assets/coin.png " alt="" class="w-5 h-5">
+            <span id="navCoinCount" class="text-sm font-medium">100</span>
+          </div>
+          <div class="bg-[#00A63E] text-white px-3 py-1 rounded-full text-sm font-medium"> <span id="navCopyCount">0</span> Copy</div>
+
+        </div>
+      </div>
+    </div>
+  </header>
+</body>
+</html>
